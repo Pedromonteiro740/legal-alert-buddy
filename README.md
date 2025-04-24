@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+📌 LegalAlert – Lembrete Jurídico Inteligente
+LegalAlert é um aplicativo simples e eficiente para profissionais e escritórios jurídicos manterem controle sobre eventos importantes, como vencimentos de contratos, alvarás, licenças e obrigações fiscais. Com notificações automáticas por e-mail ou WhatsApp, ajuda a evitar esquecimentos e garantir mais organização.
 
-## Project info
+🎯 Objetivo
+Permitir que o usuário cadastre eventos jurídicos importantes e receba lembretes automáticos com antecedência, via e-mail ou WhatsApp, configurados com facilidade.
 
-**URL**: https://lovable.dev/projects/b6eb90ee-e56d-427a-a856-f11222765bda
+🧩 Estrutura do App
+1. Tela de Cadastro de Evento
+Nome do evento – Campo de texto livre
 
-## How can I edit this code?
+Categoria – Seleção entre: Contrato, Fiscal, Licença, Outros
 
-There are several ways of editing your application.
+Data do evento – Campo de data
 
-**Use Lovable**
+Canal de lembrete – Seleção entre: E-mail, WhatsApp
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b6eb90ee-e56d-427a-a856-f11222765bda) and start prompting.
+Contato para lembrete – E-mail ou número de WhatsApp
 
-Changes made via Lovable will be committed automatically to this repo.
+🔄 Mensagem de confirmação após cadastro
 
-**Use your preferred IDE**
+✅ Validação de e-mail ou telefone
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Tela de Visualização de Eventos
+Lista com os seguintes dados:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Nome do evento
 
-Follow these steps:
+Data do evento
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Categoria
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Canal
 
-# Step 3: Install the necessary dependencies.
-npm i
+Status do lembrete (Aguardando, Enviado)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Botões para editar e excluir eventos
 
-**Edit a file directly in GitHub**
+Notificação de sucesso ao enviar lembrete
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Integração com Google Sheets
+Cada evento é registrado automaticamente em uma aba da planilha Google
 
-**Use GitHub Codespaces**
+Cada linha representa um evento
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+A planilha serve como base para a automação dos lembretes
 
-## What technologies are used for this project?
+4. Integração com Zapier ou Make
+Monitoramento da planilha (ou webhook) para:
 
-This project is built with:
+Verificar eventos com data próxima (3 dias antes)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Disparar lembrete automático via:
 
-## How can I deploy this project?
+Gmail (para e-mails)
 
-Simply open [Lovable](https://lovable.dev/projects/b6eb90ee-e56d-427a-a856-f11222765bda) and click on Share -> Publish.
+Twilio ou Webhook (para WhatsApp)
 
-## Can I connect a custom domain to my Lovable project?
+Marcação do status como "Enviado" após o envio do lembrete
 
-Yes, you can!
+🎨 Design
+Interface simples, intuitiva e acessível
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Foco em usabilidade para usuários não técnicos
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Linguagem leve, clara e sem jargões jurídicos
+
+💬 Suporte e Feedback
+Este projeto está em desenvolvimento. Feedbacks e sugestões são bem-vindos!
+Entre em contato pelo e-mail: pedrohenriquemonteiro@usp.br ou abra uma issue.
