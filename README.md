@@ -1,5 +1,5 @@
 📌 LegalAlert – Lembrete Jurídico Inteligente
-LegalAlert é um aplicativo simples e eficiente para profissionais e escritórios jurídicos manterem controle sobre eventos importantes, como vencimentos de contratos, alvarás, licenças e obrigações fiscais. Com notificações automáticas por e-mail ou WhatsApp, ajuda a evitar esquecimentos e garantir mais organização.
+LegalAlert é um aplicativo simples e eficiente para profissionais e escritórios jurídicos manterem controle sobre eventos importantes, como vencimentos de contratos, alvarás, licenças e obrigações fiscais. Com notificações automáticas por e-mail ou WhatsApp, ajuda a evitar esquecimentos e garantir mais organização. Acesse aqui: legal-alert-buddy.lovable.app
 
 🎯 Objetivo
 Permitir que o usuário cadastre eventos jurídicos importantes e receba lembretes automáticos com antecedência, via e-mail ou WhatsApp, configurados com facilidade.
